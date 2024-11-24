@@ -66,7 +66,7 @@ export default function LoggedIn() {
       playHmmSound();
 
       // Make API request
-      const response = await axios.get("http://croakchat-backend.vercel.app/", {
+      const response = await axios.get("https://croakchat-backend.vercel.app/", {
         params: { message },
       });
 
@@ -129,7 +129,7 @@ export default function LoggedIn() {
       return;
     }
 
-      const response = await axios.get("http://croakchat-backend.vercel.app/uploadtoipfs", {
+      const response = await axios.get("https://croakchat-backend.vercel.app/uploadtoipfs", {
         params: { pair },
       });
 
