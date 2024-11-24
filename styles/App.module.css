@@ -1,0 +1,265 @@
+
+.header {
+  color: #ffffff;
+}
+.header_section {
+  font-family: 'SLACKEY';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  border: 2px solid #b5f44d; /* Green border */
+  font-size: 2.2rem;
+  background-image: linear-gradient(to right, #000, #333);
+}
+.clickable_header {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* Align children in a row */
+  gap: 20px; /* Space between chat box and widgets */
+}
+
+/* Chat Box */
+.chat_box {
+  background-color: #222222; /* Slightly lighter dark background */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 5rem auto;
+  width: 600px;
+  height: 530px;
+  max-width: 90%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Chat History */
+.chat_history {
+  height: 86%;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  border: 2px solid #b5f44d; /* Green border */
+  color: #e0e0e0; /* Light text color */
+}
+
+.chat_history p {
+  margin: 12px 0;
+  color: #ffffff;
+  padding: 1rem;
+  background-color: #059669;
+  border-radius: 2rem;
+}
+
+/* User's Message */
+.chat_history .userMessage {
+/*  color: #b5f44d; /* Green text for user */
+  background-color: #3d9680;
+}
+
+/* Croak's Response */
+.chat_history .croakMessage {
+/*  font-weight: bold;*/
+}
+
+/* Message Input */
+.message_input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #444444;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message_input input {
+  background-color: #333333;
+  color: #e0e0e0;
+  border: 2px solid #444444;
+  border-radius: 8px;
+  padding: 10px;
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+.message_input input:focus {
+  outline: none;
+  border-color: #b5f44d; /* Green focus border */
+}
+
+.message_input button {
+  background-color: #b5f44d; /* Green background for button */
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.message_input button:hover {
+  background-color: #8ea229; /* Darker green on hover */
+  color: white;
+}
+
+/* Mint Button */
+.mint_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b5f44d; /* Green background */
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  font-size: 25px;
+  margin: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  letter-spacing: 0.1rem;
+    margin-top: 30px;
+}
+
+.mint_btn:hover {
+  background-color: #8ea229; /* Darker green on hover */
+}
+
+/* Scrollbar Styling */
+.chat_history::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat_history::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border-radius: 4px;
+}
+
+.chat_history::-webkit-scrollbar-thumb:hover {
+  background-color: #888888;
+}
+
+.chat_history::-webkit-scrollbar-track {
+  background-color: #333333;
+}
+
+.telegram_widgets {
+
+  overflow-y: auto;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* Header frog*/
+/* For the frog container */
+.croak_chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  gap: 1rem; /* Adds space between elements */
+}
+
+.frog_wrap {
+  display: inline-block;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.frog_wrap .text_center {
+  text-align: center;
+}
+
+.frog_wrap .wrap {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0;
+}
+
+.frog_wrap .head {
+  width: 1.25em; /* Reduced to half */
+  height: 1.25em; /* Reduced to half */
+  background: #b7dd42;
+  border-radius: 100%;
+  position: relative;
+}
+
+.frog_wrap .head .eye {
+  width: 0.625em; /* Half of the previous value */
+  height: 0.25em; /* Half of the previous value */
+  display: inline-block;
+  overflow: hidden;
+  background: white;
+  border-radius: 100%;
+  border-top: 0.375em solid #b7dd42; /* Half */
+  position: absolute;
+  top: 0;
+  box-shadow: 0 0.5px 0 0.5px rgba(58, 66, 73, 0.1);
+  transition: height 0.4s, border-top-width 0.4s, transform 0.4s;
+  vertical-align: middle;
+}
+
+.frog_wrap .head .eye.o {
+  left: -0.125em; /* Adjusted for new size */
+  transform: rotate(-35deg);
+}
+
+.frog_wrap .head .eye.t {
+  right: -0.125em; /* Adjusted for new size */
+  transform: rotate(35deg);
+}
+
+.frog_wrap .head .eye:after {
+  content: '';
+  display: inline-block;
+  width: 0.25em; /* Half */
+  height: 0.25em; /* Half */
+  background: #3a4249;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.frog_wrap .head .m {
+  box-shadow: inset 0 0.05em 0 -0.025em #3a4249; /* Adjusted */
+  transition: height 0.4s;
+  width: 0.625em; /* Half */
+  height: 0.0625em; /* Half */
+  position: absolute;
+  left: 0.3125em; /* Adjusted for size */
+  top: 0.8125em; /* Adjusted for size */
+  border-radius: 100%;
+}
+
+.frog_wrap .head:hover {
+  transform-origin: center 80%;
+  animation: wiggle 0.6s 1s linear infinite;
+}
+
+.frog_wrap .head:hover .eye {
+  height: 0.5em; /* Half */
+  border-top-width: 0.125em; /* Adjusted */
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(1deg);
+  }
+  80% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
