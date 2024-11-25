@@ -3,8 +3,12 @@ And is based on _GROK_ by [xAI](https://x.ai/) rather than OpenAI.
 Croak is designed to be _Helpful_ and yet _Sarcastic, Playful an Humorous_; adapted to the croak-culture.
 <br/>A background sound and message Receive/Send tones have been added for a more fun experience. CROAK! 🐸<br/>
 
-| **Video Demo**
-https://github.com/user-attachments/assets/5fdcea1a-f0cb-448f-a2e3-25f9869e57bd
+**Video Demo**
+
+
+https://github.com/user-attachments/assets/a9a0dcf0-2b46-4381-87a2-c6f9efc4e5a2
+
+
 
 
 
