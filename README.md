@@ -1,7 +1,12 @@
 "**Croak Chat**" is an AI companion app; built around the famous [CROAK](https://croakonlinea.eth.limo/) and [eFrogs](https://efrogs.eth.limo/) culture on Linea, 
 And is based on _GROK_ by [xAI](https://x.ai/) rather than OpenAI.
 Croak is designed to be _Helpful_ and yet _Sarcastic, Playful an Humorous_; adapted to the croak-culture.
-<br/>A bacakground sound and message Receive/Send tones have been added for a more fun experience. CROAK! 🐸<br/>
+<br/>A background sound and message Receive/Send tones have been added for a more fun experience. CROAK! 🐸<br/>
+
+| **Video Demo**
+https://github.com/user-attachments/assets/5fdcea1a-f0cb-448f-a2e3-25f9869e57bd
+
+
 
 ![Screenshot From 2024-11-25 12-02-45](https://github.com/user-attachments/assets/d8c285d2-0703-4b56-9479-786c9cb0915b)
 
